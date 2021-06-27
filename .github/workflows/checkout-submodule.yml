@@ -12,6 +12,12 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+  
+  # Allows you to trigger a workflow at a scheduled time.
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 0 * * *'
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
