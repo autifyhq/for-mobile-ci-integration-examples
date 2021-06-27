@@ -1,0 +1,3 @@
+[submodule "bitrise"]
+	path = bitrise
+	url = git@github.com:autifyhq/for-mobile-bitrise-integration-samples.git
